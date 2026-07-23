@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>고객 상담 및 문의</title>
+</head>
+<body>
+    <h1>고객 상담 및 문의</h1>
+
+    <form>
+        <p>
+            <label for="customerName">고객 이름 입력창:</label>
+            <input type="text" id="customerName" name="customerName" required>
+        </p>
+        <p>
+            <label for="contactEmail">이메일 입력창:</label>
+            <input type="email" id="contactEmail" name="contactEmail" required>
+        </p>
+        <p>
+            <label for="inquiryType">문의 유형:</label>
+            <select id="inquiryType" name="inquiryType">
+                <option value="일반문의">일반문의</option>
+                <option value="제휴문의">제휴문의</option>
+                <option value="기타">기타</option>
+            </select>
+        </p>
+        <p>
+            <label for="inquiryContent">문의 내용:</label><br>
+            <textarea id="inquiryContent" name="inquiryContent" rows="5" cols="40"></textarea>
+        </p>
+        <p>
+            <button type="submit">문의하기</button>
+        </p>
+    </form>
+</body>
+</html>
+
+
+
